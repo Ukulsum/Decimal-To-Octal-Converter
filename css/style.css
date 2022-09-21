@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(185, 241, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#container{
+    height: 300px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    margin: 100px 0;
+}
+#heading{
+    color: orange;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+/* label{
+    display: flex;
+    justify-content: none;
+    text-align: none;
+    margin: 10px 80px 0 80px;
+} */
+
+#decimal_number{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+#btn{
+    padding: 5px 20px;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+}
+
+#btn:hover{
+    background-color: white;
+    color: orange;
+}
+
+#octal_number{
+    height: 150px;
+    width: 300px;
+    background-color: orange;
+    padding: 10px;
+    margin: 10px auto;
+}
